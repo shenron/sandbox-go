@@ -2,7 +2,7 @@
 Start with golang
 
 # Install
-## There are two compilers (go, gcc)
+## There are two compilers (go, gcc-go)
 https://wiki.archlinux.org/index.php/Go
 
 ```shell
