@@ -15,3 +15,7 @@ func New(firstname string, p *Parent.Parent) *Child {
 func (c Child) Sleep() string {
 	return "early"
 }
+
+func (C Child) WakeUp() string {
+	return "early"
+}

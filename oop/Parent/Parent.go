@@ -17,5 +17,9 @@ func (p Parent) GetFirstName() string {
 }
 
 func (p Parent) Sleep() string {
-	return "late" 
+	return "late"
+}
+
+func (p Parent) WakeUp() string {
+	return "early"
 }

@@ -4,15 +4,19 @@ type Sleep interface {
 	Sleep() string
 }
 
-type StandUp interface {
-	StandUp() string
+type WakeUp interface {
+	WakeUp() string
 }
 
 type LifeCycle interface {
 	Sleep
-	StandUp
+	WakeUp
 }
 
 func GenericSleep(s Sleep) string {
 	return s.Sleep()
+}
+
+func GenericWakeUp(w WakeUp) string {
+	return w.WakeUp()
 }
