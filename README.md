@@ -26,7 +26,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
 
 # Run
-## In each folder launch programm with 'go run'
+## In each folder launch program with 'go run'
 ```shell
 go run ~/dev/go/src/sandbox-go/hello/hello.go
 ```
