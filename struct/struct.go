@@ -12,9 +12,9 @@ func main() {
 	shenron.name = "CASTELLY"
 	shenron.firstname = "Thomas"
 
+	// create with values
 	var toto *Person = &Person{"Toto", "TOTO"}
 
-	// create with values
 	fmt.Printf("shenron firstname: %s\n", shenron.firstname)
 	fmt.Printf("shenron name: %s\n", shenron.name)
 	fmt.Printf("\n")
