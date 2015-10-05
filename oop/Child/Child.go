@@ -1,7 +1,7 @@
 package Child
 
 import (
-	"sandbox/oop/Parent"
+	"sandbox-go/oop/Parent"
 )
 
 type Child struct {

@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"sandbox/oop/Parent"
-	"sandbox/oop/Child"
-	"sandbox/oop/LifeCycle"
+	"sandbox-go/oop/Child"
+	"sandbox-go/oop/LifeCycle"
+	"sandbox-go/oop/Parent"
 )
 
 func main() {
