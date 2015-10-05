@@ -8,9 +8,12 @@ https://wiki.archlinux.org/index.php/Go
 ```shell
 sudo pacman -S go
 
-mkdir -p ~/dev/go
+# construct workspace
+mkdir -p ~/dev/go/src
+mkdir ~/dev/go/bin
+mkdir ~/dev/go/pkg
 
-cd ~/dev/go
+cd ~/dev/go/src
 git clone https://github.com/shenron/sandbox-go
 ```
 
@@ -25,5 +28,5 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # Run
 ## In each folder launch programm with 'go run'
 ```shell
-go run ~/dev/go/sandbox-go/hello/hello.go
+go run ~/dev/go/src/sandbox-go/hello/hello.go
 ```
