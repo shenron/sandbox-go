@@ -7,6 +7,11 @@ https://wiki.archlinux.org/index.php/Go
 
 ```shell
 sudo pacman -S go
+
+mkdir -p ~/dev/go
+
+cd ~/dev/go
+git clone https://github.com/shenron/sandbox-go
 ```
 
 # Configuration
@@ -18,7 +23,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
 
 # Run
-## In each folder run with program
+## In each folder launch programm with 'go run'
 ```shell
-go run myFile.go
+go run ~/dev/go/sandbox-go/hello/hello.go
 ```
