@@ -1,1 +1,3 @@
+```shell
 Hello, Arch!
+```
