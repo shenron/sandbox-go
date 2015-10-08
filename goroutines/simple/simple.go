@@ -8,7 +8,7 @@ import (
 )
 
 /**
- * Fake calculate
+ * Fake calculation
  * return random int64
  */
 func Calculate() int64 {
