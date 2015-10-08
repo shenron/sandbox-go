@@ -7,12 +7,20 @@ import (
 	"crypto/rand"
 )
 
+/**
+ * Fake calculate
+ * return random int64
+ */
 func Calculate() int64 {
 	c := big.NewInt(10)
 	fakeResult, _ := rand.Int(rand.Reader, c)
 	return fakeResult.Int64()
 }
 
+/**
+ * Before exec the calculate function in parameter
+ * wait fiew seconds
+ */
 func HelpCalculate(c chan int64, fct func() int64) {	
 	fmt.Println("- No problem, but I restart my WAS wait some hours ...")
 	seconds := 5 
