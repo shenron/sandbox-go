@@ -18,8 +18,9 @@ func Calculate() int64 {
 }
 
 /**
- * Before exec the calculate function in parameter
- * wait fiew seconds
+ * Before exec the parameter function 
+ * > wait fiew seconds
+ * > update the chanel
  */
 func HelpCalculate(c chan int64, fct func() int64) {	
 	fmt.Println("- No problem, but I restart my WAS wait some hours ...")
