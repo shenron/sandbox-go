@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 /**
- * Generate chanel
+ * Generate number to calculate in chanel
  */
 func generate(nums ...int) <-chan int {
 	out := make(chan int)
