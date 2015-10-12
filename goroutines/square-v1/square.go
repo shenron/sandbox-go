@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 /**
-* Generate chanel
+ * Generate chanel
  */
 func generate(nums ...int) <-chan int {
 	out := make(chan int)
@@ -16,6 +16,9 @@ func generate(nums ...int) <-chan int {
 	return out
 }
 
+/**
+ * Caltulate square
+ */
 func square(in <-chan int) <-chan int {
 	out := make(chan int)
 	go func() {
