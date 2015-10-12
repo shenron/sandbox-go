@@ -17,7 +17,7 @@ func generate(nums ...int) <-chan int {
 }
 
 /**
- * Caltulate square
+ * Calculate square
  */
 func square(in <-chan int) <-chan int {
 	out := make(chan int)
