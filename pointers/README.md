@@ -1,3 +1,4 @@
+Output :
 ```shell
 Value of x: 42
 Address of x: 0xc82000a340

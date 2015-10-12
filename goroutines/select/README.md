@@ -1,3 +1,4 @@
+Output :
 ```shell
 Grenade : Boom after 5 seconds
 Grenade : Boom after 7 seconds
