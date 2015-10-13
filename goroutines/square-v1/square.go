@@ -6,7 +6,7 @@ import "fmt"
  * Generate number to calculate in chanel
  */
 func generate(nums ...int) <-chan int {
-	out := make(chan int)
+	out := make(chan int, len(nums))
 	go func() {
 		for _, n := range nums {
 			out <- n
